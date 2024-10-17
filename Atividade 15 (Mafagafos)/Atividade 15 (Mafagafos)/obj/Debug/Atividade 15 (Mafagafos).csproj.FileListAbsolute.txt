@@ -1,0 +1,8 @@
+D:\SharpDeveloper (Saiz)\Atividade 15 (Mafagafos)\Atividade 15 (Mafagafos)\bin\Debug\Atividade 15 (Mafagafos).exe.config
+D:\SharpDeveloper (Saiz)\Atividade 15 (Mafagafos)\Atividade 15 (Mafagafos)\bin\Debug\Atividade 15 (Mafagafos).exe
+D:\SharpDeveloper (Saiz)\Atividade 15 (Mafagafos)\Atividade 15 (Mafagafos)\bin\Debug\Atividade 15 (Mafagafos).pdb
+D:\SharpDeveloper (Saiz)\Atividade 15 (Mafagafos)\Atividade 15 (Mafagafos)\obj\Debug\Atividade 15 (Mafagafos).csprojResolveAssemblyReference.cache
+D:\SharpDeveloper (Saiz)\Atividade 15 (Mafagafos)\Atividade 15 (Mafagafos)\obj\Debug\Atividade_15__Mafagafos_.MainForm.resources
+D:\SharpDeveloper (Saiz)\Atividade 15 (Mafagafos)\Atividade 15 (Mafagafos)\obj\Debug\Atividade 15 (Mafagafos).csproj.GenerateResource.Cache
+D:\SharpDeveloper (Saiz)\Atividade 15 (Mafagafos)\Atividade 15 (Mafagafos)\obj\Debug\Atividade 15 (Mafagafos).exe
+D:\SharpDeveloper (Saiz)\Atividade 15 (Mafagafos)\Atividade 15 (Mafagafos)\obj\Debug\Atividade 15 (Mafagafos).pdb
