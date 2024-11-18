@@ -25,6 +25,9 @@ namespace Atividade_22__Uso_de_RichTextBox_
 		private System.Windows.Forms.TextBox textBox3;
 		private System.Windows.Forms.Label label3;
 		private System.Windows.Forms.Label label2;
+		private System.Windows.Forms.Button button5;
+		private System.Windows.Forms.Label label4;
+		private System.Windows.Forms.TextBox textBox4;
 		
 		/// <summary>
 		/// Disposes resources used by the form.
@@ -58,6 +61,9 @@ namespace Atividade_22__Uso_de_RichTextBox_
 			this.textBox3 = new System.Windows.Forms.TextBox();
 			this.label3 = new System.Windows.Forms.Label();
 			this.label2 = new System.Windows.Forms.Label();
+			this.button5 = new System.Windows.Forms.Button();
+			this.label4 = new System.Windows.Forms.Label();
+			this.textBox4 = new System.Windows.Forms.TextBox();
 			this.SuspendLayout();
 			// 
 			// label1
@@ -83,14 +89,14 @@ namespace Atividade_22__Uso_de_RichTextBox_
 			this.richTextBox1.Location = new System.Drawing.Point(320, 12);
 			this.richTextBox1.Name = "richTextBox1";
 			this.richTextBox1.ReadOnly = true;
-			this.richTextBox1.Size = new System.Drawing.Size(358, 399);
+			this.richTextBox1.Size = new System.Drawing.Size(358, 442);
 			this.richTextBox1.TabIndex = 2;
 			this.richTextBox1.Text = "";
 			// 
 			// button1
 			// 
 			this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.button1.Location = new System.Drawing.Point(92, 417);
+			this.button1.Location = new System.Drawing.Point(93, 326);
 			this.button1.Name = "button1";
 			this.button1.Size = new System.Drawing.Size(99, 37);
 			this.button1.TabIndex = 3;
@@ -101,7 +107,7 @@ namespace Atividade_22__Uso_de_RichTextBox_
 			// button2
 			// 
 			this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.button2.Location = new System.Drawing.Point(320, 417);
+			this.button2.Location = new System.Drawing.Point(320, 465);
 			this.button2.Name = "button2";
 			this.button2.Size = new System.Drawing.Size(100, 37);
 			this.button2.TabIndex = 4;
@@ -112,7 +118,7 @@ namespace Atividade_22__Uso_de_RichTextBox_
 			// button3
 			// 
 			this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.button3.Location = new System.Drawing.Point(451, 417);
+			this.button3.Location = new System.Drawing.Point(451, 465);
 			this.button3.Name = "button3";
 			this.button3.Size = new System.Drawing.Size(99, 37);
 			this.button3.TabIndex = 5;
@@ -123,7 +129,7 @@ namespace Atividade_22__Uso_de_RichTextBox_
 			// button4
 			// 
 			this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.button4.Location = new System.Drawing.Point(580, 417);
+			this.button4.Location = new System.Drawing.Point(580, 465);
 			this.button4.Name = "button4";
 			this.button4.Size = new System.Drawing.Size(98, 37);
 			this.button4.TabIndex = 6;
@@ -133,14 +139,14 @@ namespace Atividade_22__Uso_de_RichTextBox_
 			// 
 			// textBox2
 			// 
-			this.textBox2.Location = new System.Drawing.Point(63, 185);
+			this.textBox2.Location = new System.Drawing.Point(63, 171);
 			this.textBox2.Name = "textBox2";
 			this.textBox2.Size = new System.Drawing.Size(164, 26);
 			this.textBox2.TabIndex = 8;
 			// 
 			// textBox3
 			// 
-			this.textBox3.Location = new System.Drawing.Point(63, 291);
+			this.textBox3.Location = new System.Drawing.Point(63, 270);
 			this.textBox3.Name = "textBox3";
 			this.textBox3.Size = new System.Drawing.Size(164, 26);
 			this.textBox3.TabIndex = 10;
@@ -149,7 +155,7 @@ namespace Atividade_22__Uso_de_RichTextBox_
 			// 
 			this.label3.AutoSize = true;
 			this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label3.Location = new System.Drawing.Point(63, 263);
+			this.label3.Location = new System.Drawing.Point(63, 242);
 			this.label3.Name = "label3";
 			this.label3.Size = new System.Drawing.Size(95, 25);
 			this.label3.TabIndex = 9;
@@ -159,18 +165,49 @@ namespace Atividade_22__Uso_de_RichTextBox_
 			// 
 			this.label2.AutoSize = true;
 			this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label2.Location = new System.Drawing.Point(63, 157);
+			this.label2.Location = new System.Drawing.Point(63, 143);
 			this.label2.Name = "label2";
 			this.label2.Size = new System.Drawing.Size(102, 25);
 			this.label2.TabIndex = 7;
 			this.label2.Text = "Endereço:";
+			// 
+			// button5
+			// 
+			this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.button5.Location = new System.Drawing.Point(93, 465);
+			this.button5.Name = "button5";
+			this.button5.Size = new System.Drawing.Size(99, 37);
+			this.button5.TabIndex = 11;
+			this.button5.Text = "LINHA";
+			this.button5.UseVisualStyleBackColor = true;
+			this.button5.Click += new System.EventHandler(this.Button5Click);
+			// 
+			// label4
+			// 
+			this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label4.Location = new System.Drawing.Point(63, 384);
+			this.label4.Name = "label4";
+			this.label4.Size = new System.Drawing.Size(100, 23);
+			this.label4.TabIndex = 12;
+			this.label4.Text = "Linha:";
+			// 
+			// textBox4
+			// 
+			this.textBox4.Location = new System.Drawing.Point(63, 428);
+			this.textBox4.Name = "textBox4";
+			this.textBox4.Size = new System.Drawing.Size(164, 26);
+			this.textBox4.TabIndex = 13;
 			// 
 			// MainForm
 			// 
 			this.AcceptButton = this.button1;
 			this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(690, 466);
+			this.BackColor = System.Drawing.Color.LavenderBlush;
+			this.ClientSize = new System.Drawing.Size(721, 539);
+			this.Controls.Add(this.textBox4);
+			this.Controls.Add(this.label4);
+			this.Controls.Add(this.button5);
 			this.Controls.Add(this.textBox3);
 			this.Controls.Add(this.label3);
 			this.Controls.Add(this.textBox2);

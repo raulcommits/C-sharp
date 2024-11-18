@@ -26,7 +26,7 @@ namespace Atividade_22__Uso_de_RichTextBox_
 		void Button1Click(object sender, EventArgs e)
 		{
 			
-			richTextBox1.Text += textBox1.Text + " | " + textBox2.Text + " | " + textBox3.Text;
+			richTextBox1.Text += textBox1.Text + " | " + textBox2.Text + " | " + textBox3.Text + "\n";
 			textBox1.Clear();
 			textBox2.Clear();
 			textBox3.Clear();
@@ -42,6 +42,29 @@ namespace Atividade_22__Uso_de_RichTextBox_
 		void Button4Click(object sender, EventArgs e)
 		{
 			richTextBox1.Clear();
+			richTextBox1.SaveFile("dados.txt", RichTextBoxStreamType.PlainText);
+		}
+		void Button5Click(object sender, EventArgs e)
+		{
+			// CONSULTAR
+			int nLinha = int.Parse(textBox4.Text);
+			if (nLinha < richTextBox1.Lines.Length-1)
+			{
+				// PEGAR A LINHA ESPECIFICADA
+				string linha = richTextBox1.Lines[nLinha];
+				
+				// SEPARAÇÃO
+				string[] dados = linha.Split('|');
+				
+				// MOSTRAR
+				textBox1.Text = dados[0];
+				textBox2.Text = dados[1];
+				textBox3.Text = dados[2];
+			}
+			else 
+			{
+				MessageBox.Show("registro não cadastrado");
+			}
 		}
 	}
 }
